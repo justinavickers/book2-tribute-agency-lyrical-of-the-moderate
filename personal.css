@@ -1,4 +1,26 @@
-img {
+/* section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* img {
   width:150px;
   height:150px;
+} */
+
+.picture {
+  
 }
