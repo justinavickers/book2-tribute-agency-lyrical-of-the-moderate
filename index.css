@@ -1,0 +1,23 @@
+.albums {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.album_image {
+width: 15vw;
+flex-direction: row;
+}
+
+section {
+/* display: flex; */
+justify-content: space-between;
+
+}
+
+div {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+margin: auto;
+}
