@@ -1,5 +1,6 @@
 body {
-    background-color: gray;
+    background-color: darkslateblue;
+    color: chocolate;
 }
 
 ul {
@@ -93,8 +94,8 @@ li a:hover:not(.active) {
 }
  
 .headliner .new-title {
-    font-size: 38px;
-    color: green;
+    font-size: 48px;
+    color: rgb(2, 2, 0);
     text-align: center;
 }
 
@@ -108,8 +109,9 @@ section {
 }
 
 .p1, .container, .p2{
-    border-bottom: 1px solid black;
+    border: 2px solid chocolate;
     padding: 10px;
+    background: gold;
 }
     
 .discography .album-art li img {
@@ -119,12 +121,35 @@ section {
     display: inline;
 }
 
-.discography .album-art ul li img p {
+.album-art {
     text-align: center;
+    background: darkslateblue;
 }
 
 .media-title {
     font-size: 38px;
     text-align: center;
     font-family: cursive;
+}
+
+.card {
+    width: 25vw;
+    min-height: 200px;
+}
+
+.sub {
+    text-align: center;
+    font-size: 22px;
+}
+
+.card {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: darkorange;
+    background-color: gold;
+    padding: 20px;
+    width: 25vw;
+    float: left;
+    display: inline-block;
+    margin: 0px 15px 0px; 
 }
