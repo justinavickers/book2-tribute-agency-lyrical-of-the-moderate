@@ -33,7 +33,7 @@ img {
 
 #les{
     border-style: solid;
-    border-color:black;
+    border-color: #A95E37;
 }
 
 
@@ -78,7 +78,7 @@ li {
   }
 
 body{
-    background-color: darkslateblue;
+    background-color:#9C21DB;
     color: chocolate;
 }
 figure img {
