@@ -113,9 +113,14 @@ section {
 }
     
 .discography .album-art li img {
-    height: 200px;
-    max-width: 200px;
-    padding: 5px;
+    height: 150px;
+    max-width: 150px;
+    padding: 7px;
+    display: inline;
+}
+
+.discography .album-art ul li img p {
+    text-align: center;
 }
 
 .media-title {
