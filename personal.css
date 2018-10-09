@@ -1,4 +1,40 @@
-img {
-  width:150px;
-  height:150px;
+body {
+  background-color: darkslateblue;
+  color: darkorange;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: darkorange;
+  background-color: gold;
+  padding: 20px;
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 120px;
+}
+
+#les {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
