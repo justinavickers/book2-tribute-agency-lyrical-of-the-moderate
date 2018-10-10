@@ -2,22 +2,68 @@
   background-color: white;
   display: flex;
   flex-direction: column;
+  background-color: gold;
+  color:chocolate;
 }
 
 .album_image {
-width: 15vw;
+width: 5vw;
 flex-direction: row;
 }
 
-section {
-/* display: flex; */
-justify-content: space-between;
+.bio {
+width: 25vw;
+}
 
+body {
+
+ color: chocolate;
+ /* https://www.colourlovers.com/color/9C21DB/Willy_Wonka_Purple
+ This is where we found our color for the background */
+background: #9C21DB;
+        /* radial-gradient(
+            circle, 
+             rgba(25, 24, 68, 0.7),
+             rgba(66, 59, 68, 0.3),
+             rgba(0, 39, 212, 0.1),
+             rgba(109, 0, 212, 0.1),
+             rgba(74, 0, 212, 0.1),
+             rgba(109, 0, 212, 0)),
+        linear-gradient(
+            rgb(31, 3, 34), 
+            rgb(31, 3, 34)); */
+}
+
+section {
+display: flex;
+justify-content: space-between;
+align-self: stretch;
+flex-wrap: wrap;
+flex-basis: 33%;
 }
 
 div {
 border-radius: 5px;
-background-color: #f2f2f2;
+background-color: gold;
+border-color: darkorange;
+border-style: solid;
 padding: 20px;
-margin: auto;
+margin: 5px;
 }
+
+#willy {
+  display: block;
+  margin:auto;
+}
+
+/* audio { 
+  display: none;
+} */
+
+@font-face {
+  font-family: "PrimusFont"; src: url('fonts/Matrix Bold.ttf');
+  }
+
+ * {
+    font-family: 'PrimusFont';
+    }
