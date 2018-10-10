@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'PrimusFont';
+  src: url('fonts/Matrix Bold.ttf');
+}
+
+* {
+  font-family: 'PrimusFont';
+}
+body {
+  background-color: #9C21D8;
+  color: chocolate;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+div {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: darkorange;
+  background-color: gold;
+  padding: 20px;
+  margin: 5px;
+}
+
+.box-format {
+  width: 25vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  height: 220px;
+  border-radius: 2px;
+}
+
+#les {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+/* audio {
+  display:none;
+} */
