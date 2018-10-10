@@ -3,7 +3,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background: #A95E37;
+    border-radius: 5px;
+    border: solid darkorange; 
 }
 
 li {
@@ -12,15 +14,16 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: rgb(72, 6, 75);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color:gold;
 }
+
 
 .active {
     background-color: #4CAF50;
@@ -37,19 +40,9 @@ li a:hover:not(.active) {
 }
 
 .main-footer-div {
-    background:
-        radial-gradient(
-            circle, 
-             rgba(0, 212, 0, .7),
-             rgba(0, 212, 0, .3),
-             rgba(0, 212, 0, .1),
-             rgba(0, 212, 0, .1),
-             rgba(0, 212, 0, .1),
-             rgba(0, 212, 0, 0)),
-        linear-gradient(
-            rgb(31, 3, 34), 
-            rgb(31, 3, 34));
-    color: white;
+    /* background: #381216; */
+    background: #A95E37; 
+    color: rgb(72, 6, 75);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,3 +76,5 @@ li a:hover:not(.active) {
 .social-media-icon:hover {
     opacity: 1;
 }
+
+

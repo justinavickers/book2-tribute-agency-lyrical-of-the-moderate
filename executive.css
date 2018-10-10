@@ -1,0 +1,96 @@
+.collab {
+    border-radius: 5px;
+    border-style: solid;
+    background-color: gold;
+    border-color: darkorange;
+    padding: 20px;
+    margin: 5px;
+    width: 30vw;
+    column-count: auto;
+}
+
+.collab:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.country {
+    border-radius: 5px;
+    border-style: solid;
+    background-color: gold;
+    border-color: darkorange;
+    padding: 20px;
+    margin: 5px;
+    width: 30vw;
+}
+
+.country:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 23vw;
+}
+
+#les{
+    border-style: solid;
+    border-color: #A95E37;
+}
+
+
+li {
+    list-style: none;
+}
+
+.Collaborators {
+    display: flex;
+    flex-direction: column;
+    background: gold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: darkorange;
+    background-color: gold;
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+    margin: 5px;
+    width: 30vw;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+  
+.title {
+    color:chocolate;
+    font-size: 18px;
+  }
+
+body{
+    background-color:#9C21DB;
+    color: chocolate;
+}
+figure img {
+	-webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(.0deg) scale(1.09);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure:hover img {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}
+
+
+
