@@ -133,8 +133,7 @@ section {
 }
 
 .card {
-    width: 25vw;
-    min-height: 200px;
+    
 }
 
 .sub {
@@ -152,4 +151,8 @@ section {
     float: left;
     display: inline-block;
     margin: 0px 15px 0px; 
+    width: 25vw;
+    min-height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
